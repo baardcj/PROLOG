@@ -2,6 +2,7 @@
 % example input : inp(X, [[1, 2, 3], [2, 3, 4], ...]).
 
 
+
 inp(Y, A):-
         cut(X, A),              % - atomic cut
         flatten(A, B),          % - flattens the input of clauses into regular list
